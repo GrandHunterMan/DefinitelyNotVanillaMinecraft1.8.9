@@ -1,0 +1,4 @@
+tile.blockCopperOre.name = Copper Ore
+tile.blockTitaniumOre.name = Titanium Ore
+
+itemGroup.tabDNVM=DNVM

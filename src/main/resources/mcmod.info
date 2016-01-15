@@ -1,0 +1,16 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Definitely Not Vanilla Minecraft",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GrandHunterMan"],
+  "credits": "The Forge and FML guys, and McJty for the documentation and tutorials.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
