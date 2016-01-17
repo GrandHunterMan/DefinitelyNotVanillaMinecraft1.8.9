@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 public class ItemBase extends Item {
     public ItemBase(){
         super();
-        setCreativeTab(DNVM.tabDNVM);
+        this.setCreativeTab(DNVM.tabDNVM);
         this.maxStackSize = 64;
     }
 }

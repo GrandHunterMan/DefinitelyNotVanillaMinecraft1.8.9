@@ -10,4 +10,16 @@ tile.blockPlatinumOre.name=Platinum Ore
 tile.blockSilverOre.name=Silver Ore
 tile.blockNickelOre.name=Nickel Ore
 
+item.itemCopperIngot.name=Copper Ingot
+item.itemTitaniumIngot.name=Titanium Ingot
+item.itemCryoliteGem.name=Cryolite Gem
+item.itemRutileGem.name=Rutile Gem
+item.itemAluminumIngot.name=Aluminum Ingot
+item.itemLeadIngot.name=Lead Ingot
+item.itemTinIngot.name=Tin Ingot
+item.itemChromeIngot.name=Chromium Ingot
+item.itemPlatinumIngot.name=Platinum Ingot
+item.itemSilverIngot.name=Silver Ingot
+item.itemNickelIngot.name=Nickel Ingot
+
 itemGroup.tabDNVM=DNVM

@@ -65,6 +65,7 @@ public class DNVM
         public void preInit(FMLPreInitializationEvent event){
             super.preInit(event);
             InitBlock.initModels();
+            InitItem.initModels();
         }
 
     }
