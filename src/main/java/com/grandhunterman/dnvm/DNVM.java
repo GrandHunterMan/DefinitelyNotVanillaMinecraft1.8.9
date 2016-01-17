@@ -2,6 +2,7 @@ package com.grandhunterman.dnvm;
 
 import com.grandhunterman.dnvm.block.InitBlock;
 import com.grandhunterman.dnvm.common.organization.CreativeTab;
+import com.grandhunterman.dnvm.config.ConfigHandler;
 import com.grandhunterman.dnvm.item.InitItem;
 import com.grandhunterman.dnvm.reference.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +22,7 @@ public class DNVM
 
     @EventHandler
     public void  init(FMLPreInitializationEvent event){
+        ConfigHandler.init(event.getSuggestedConfigurationFile());
         proxy.preInit(event);
 
     }
