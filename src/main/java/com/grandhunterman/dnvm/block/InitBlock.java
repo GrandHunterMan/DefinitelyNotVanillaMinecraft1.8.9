@@ -1,8 +1,6 @@
 package com.grandhunterman.dnvm.block;
 
-import com.grandhunterman.dnvm.block.ore.BlockAluminumOre;
-import com.grandhunterman.dnvm.block.ore.BlockCopperOre;
-import com.grandhunterman.dnvm.block.ore.BlockTitaniumOre;
+import com.grandhunterman.dnvm.block.ore.*;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -17,11 +15,28 @@ public class InitBlock {
     public static BlockTitaniumOre blockTitaniumOre;
     public static BlockAluminumOre blockAluminumOre;
     public static BlockCopperOre blockCopperOre;
+    public static BlockTinOre blockTinOre;
+    public static BlockSilverOre blockSilverOre;
+    public static BlockLeadOre blockLeadOre;
+    public static BlockChromeOre blockChromeOre;
+    public static BlockCryoliteOre blockCryoliteOre;
+    public static BlockRutileOre blockRutileOre;
+    public static BlockNickelOre blockNickelOre;
+    public static BlockPlatinumOre blockPlatinumOre;
+
 
     public static void init() {
         blockTitaniumOre = new BlockTitaniumOre();
         blockAluminumOre = new BlockAluminumOre();
         blockCopperOre = new BlockCopperOre();
+        blockTinOre = new BlockTinOre();
+        blockSilverOre = new BlockSilverOre();
+        blockLeadOre = new BlockLeadOre();
+        blockChromeOre = new BlockChromeOre();
+        blockRutileOre = new BlockRutileOre();
+        blockCryoliteOre = new BlockCryoliteOre();
+        blockNickelOre = new BlockNickelOre();
+        blockPlatinumOre = new BlockPlatinumOre();
 
     }
 
@@ -29,6 +44,15 @@ public class InitBlock {
     public static void initModels(){
         blockCopperOre.InitModel();
         blockTitaniumOre.InitModel();
+        blockAluminumOre.InitModel();
+        blockTinOre.InitModel();
+        blockSilverOre.InitModel();
+        blockLeadOre.InitModel();
+        blockChromeOre.InitModel();
+        blockRutileOre.InitModel();
+        blockCryoliteOre.InitModel();
+        blockNickelOre.InitModel();
+        blockPlatinumOre.InitModel();
     }
 
 }

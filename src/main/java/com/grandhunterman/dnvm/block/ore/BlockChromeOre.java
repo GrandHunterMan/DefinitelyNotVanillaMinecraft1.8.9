@@ -12,12 +12,13 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2016  GrandHunterMan (http://www.grandhunterman.com)
  */
-public class BlockAluminumOre extends BlockBase {
-    public BlockAluminumOre(){
+public class BlockChromeOre extends BlockBase {
+    public BlockChromeOre(){
         super();
-        setUnlocalizedName("blockAluminumOre");
-        setRegistryName("blockAluminumOre");
+        setUnlocalizedName("blockChromeOre");
+        setRegistryName("blockChromeOre");
         GameRegistry.registerBlock(this);
+
     }
     @SideOnly(Side.CLIENT)
     public void InitModel(){

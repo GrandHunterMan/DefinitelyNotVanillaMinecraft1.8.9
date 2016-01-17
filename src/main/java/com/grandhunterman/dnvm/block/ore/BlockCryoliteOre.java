@@ -12,13 +12,15 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2016  GrandHunterMan (http://www.grandhunterman.com)
  */
-public class BlockAluminumOre extends BlockBase {
-    public BlockAluminumOre(){
+public class BlockCryoliteOre extends BlockBase {
+    public BlockCryoliteOre(){
         super();
-        setUnlocalizedName("blockAluminumOre");
-        setRegistryName("blockAluminumOre");
+        setUnlocalizedName("blockCryoliteOre");
+        setRegistryName("blockCryoliteOre");
         GameRegistry.registerBlock(this);
+
     }
+
     @SideOnly(Side.CLIENT)
     public void InitModel(){
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));

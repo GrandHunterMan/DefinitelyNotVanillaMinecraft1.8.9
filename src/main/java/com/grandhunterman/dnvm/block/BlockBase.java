@@ -1,5 +1,6 @@
 package com.grandhunterman.dnvm.block;
 
+import com.grandhunterman.dnvm.DNVM;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -10,7 +11,7 @@ import net.minecraft.block.material.Material;
 public class BlockBase extends Block{
     public BlockBase(){
         super(Material.rock);
-        //this.setCreativeTab();
+        this.setCreativeTab(DNVM.tabDNVM);
 
     }
 }

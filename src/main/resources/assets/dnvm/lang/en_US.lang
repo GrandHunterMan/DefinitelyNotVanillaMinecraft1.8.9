@@ -1,5 +1,13 @@
 tile.blockCopperOre.name=Copper Ore
 tile.blockTitaniumOre.name=Titanium Ore
-til.blockAluminumOre.name=Aluminum Ore
+tile.blockCryoliteOre.name=Cryolite Ore
+tile.blockRutileOre.name=Rutile Ore
+tile.blockAluminumOre.name=Aluminum Ore
+tile.blockLeadOre.name=Lead Ore
+tile.blockTinOre.name=Tin Ore
+tile.blockChromeOre.name=Chromium Ore
+tile.blockPlatinumOre.name=Platinum Ore
+tile.blockSilverOre.name=Silver Ore
+tile.blockNickelOre.name=Nickel Ore
 
 itemGroup.tabDNVM=DNVM

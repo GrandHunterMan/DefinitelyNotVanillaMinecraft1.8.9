@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "dnvm:blockCryoliteOre"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
