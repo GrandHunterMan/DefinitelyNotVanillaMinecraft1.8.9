@@ -5,6 +5,8 @@ import com.grandhunterman.dnvm.common.organization.CreativeTab;
 import com.grandhunterman.dnvm.config.ConfigHandler;
 import com.grandhunterman.dnvm.item.InitItem;
 import com.grandhunterman.dnvm.reference.Reference;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -13,16 +15,15 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
-@Mod(modid = DNVM.MODID, version = DNVM.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION, guiFactory = "com.grandhunterman.dnvm.client.GuiFactory.class")
 public class DNVM
 {
-    public static final String MODID = Reference.MOD_ID;
-    public static final String VERSION = "1.0";
 
 
     @EventHandler
     public void  init(FMLPreInitializationEvent event){
         ConfigHandler.init(event.getSuggestedConfigurationFile());
+        MinecraftForge.EVENT_BUS.register(new ConfigHandler());
         proxy.preInit(event);
 
     }
@@ -68,5 +69,11 @@ public class DNVM
             InitItem.initModels();
         }
 
+    }
+    public static class ServerProxy extends CommonProxy{
+        @Override
+        public void preInit(FMLPreInitializationEvent event){
+            super.preInit(event);
+        }
     }
 }
