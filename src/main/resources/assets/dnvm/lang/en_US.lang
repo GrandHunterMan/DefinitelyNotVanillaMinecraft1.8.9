@@ -10,6 +10,9 @@ tile.blockPlatinumOre.name=Platinum Ore
 tile.blockSilverOre.name=Silver Ore
 tile.blockNickelOre.name=Nickel Ore
 
+
+
+
 item.itemCopperIngot.name=Copper Ingot
 item.itemTitaniumIngot.name=Titanium Ingot
 item.itemCryoliteGem.name=Cryolite Gem
@@ -21,5 +24,13 @@ item.itemChromeIngot.name=Chromium Ingot
 item.itemPlatinumIngot.name=Platinum Ingot
 item.itemSilverIngot.name=Silver Ingot
 item.itemNickelIngot.name=Nickel Ingot
+
+item.itemResistor.name=Resistor
+item.itemCapacitor.name=Capacitor
+item.itemSwitch.name=Switch
+item.itemBasicCircuit=Basic Circuit Board
+
+
+
 
 itemGroup.tabDNVM=DNVM

@@ -4,6 +4,7 @@ import com.grandhunterman.dnvm.block.InitBlock;
 import com.grandhunterman.dnvm.common.organization.CreativeTab;
 import com.grandhunterman.dnvm.config.ConfigHandler;
 import com.grandhunterman.dnvm.item.InitItem;
+import com.grandhunterman.dnvm.reference.LogHelper;
 import com.grandhunterman.dnvm.reference.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
@@ -25,6 +26,7 @@ public class DNVM
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         MinecraftForge.EVENT_BUS.register(new ConfigHandler());
         proxy.preInit(event);
+        LogHelper.info("Testing 123");
 
     }
 
